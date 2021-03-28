@@ -27,12 +27,3 @@ export default createGlobalStyle`
     cursor: pointer;
   }
 `;
-
-/* // --persian-orange: #df9a57ff;
-// --outrageous-orange: #fc7a57ff;
-// --mustard: #fcd757ff;
-// --laser-lemon: #eefc57ff;
-// --davys-grey: #5e5b52ff;
-// --white: #ffffff;
-// --rich-black-fogra: #0C0D0F;
-// --red-pigment: #FB1528; */

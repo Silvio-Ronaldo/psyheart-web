@@ -19,7 +19,7 @@ export const Content = styled.div`
   width: 100%;
   max-width: 700px;
 
-  div {
+  > div {
     width: 100%;
     max-width: 240px;
     display: flex;
@@ -42,41 +42,6 @@ export const Content = styled.div`
     h2 {
       margin-bottom: 24px;
       color: #ffffff;
-    }
-
-    input {
-      background: #5e5b52ff;
-      border-radius: 10px;
-      border: 2px solid #5e5b52ff;
-      padding: 16px;
-      width: 100%;
-      color: #ffffff;
-
-      & + input {
-        margin-top: 8px;
-      }
-
-      &::placeholder {
-        color: #c3c3c3;
-        opacity: 0.5;
-      }
-    }
-
-    button {
-      background: #fb1528;
-      height: 56px;
-      border-radius: 10px;
-      border: 0;
-      padding: 0 16px;
-      color: #ffffff;
-      width: 100%;
-      font-weight: 600;
-      margin-top: 16px;
-      transition: background-color 0.2s;
-
-      &:hover {
-        background: ${shade(0.2, '#fb1528')};
-      }
     }
 
     a {
