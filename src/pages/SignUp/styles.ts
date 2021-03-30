@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { shade } from 'polished';
 
-import signInBackground from '../../assets/red-heart-shadow.jpg';
+import signUpBackground from '../../assets/red-brain.jpg';
 
 export const Container = styled.div`
   height: 100vh;
@@ -35,7 +35,7 @@ export const Content = styled.div`
   }
 
   form {
-    margin: 80px 0;
+    margin: 50px 0;
     max-width: 340px;
     text-align: center;
 
@@ -79,6 +79,6 @@ export const Content = styled.div`
 
 export const Background = styled.div`
   flex: 1;
-  background: url(${signInBackground}) no-repeat center;
+  background: url(${signUpBackground}) no-repeat center;
   background-size: cover;
 `;
