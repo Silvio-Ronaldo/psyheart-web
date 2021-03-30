@@ -8,6 +8,7 @@ const theme = {
     white: '#ffffff',
     richBlackFogra: '#0C0D0F',
     redPigment: '#FB1528',
+    steelBlue: '#3678B2',
   },
 };
 
