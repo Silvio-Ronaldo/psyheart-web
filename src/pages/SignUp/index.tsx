@@ -22,7 +22,7 @@ const SignUp: React.FC = () => {
           <FiHeart size={40} />
         </div>
 
-        <Form initialData={{ name: 'Silvio' }} onSubmit={handleSubmit}>
+        <Form onSubmit={handleSubmit}>
           <h2>Faça seu cadastro</h2>
 
           <Input name="name" icon={FiUser} placeholder="Nome" />
