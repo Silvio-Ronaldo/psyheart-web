@@ -9,7 +9,7 @@ import getValidationErrors from '../../utils/getValidationErrors';
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 
-import { Container, Content, Background } from './styles';
+import { Container, Content, AnimationContainer, Background } from './styles';
 
 const SignUp: React.FC = () => {
   const formRef = useRef<FormHandles>(null);
@@ -41,32 +41,34 @@ const SignUp: React.FC = () => {
       <Background />
 
       <Content>
-        <div>
-          <h1>PsyHeart</h1>
-          <FiHeart size={40} />
-        </div>
+        <AnimationContainer>
+          <div>
+            <h1>PsyHeart</h1>
+            <FiHeart size={40} />
+          </div>
 
-        <Form ref={formRef} onSubmit={handleSubmit}>
-          <h2>Faça seu cadastro</h2>
+          <Form ref={formRef} onSubmit={handleSubmit}>
+            <h2>Faça seu cadastro</h2>
 
-          <Input name="name" icon={FiUser} placeholder="Nome" />
-          <Input name="email" icon={FiMail} placeholder="E-mail" />
-          <Input
-            icon={FiLock}
-            name="password"
-            type="password"
-            placeholder="Senha"
-          />
+            <Input name="name" icon={FiUser} placeholder="Nome" />
+            <Input name="email" icon={FiMail} placeholder="E-mail" />
+            <Input
+              icon={FiLock}
+              name="password"
+              type="password"
+              placeholder="Senha"
+            />
 
-          <Button type="submit">Cadastrar</Button>
+            <Button type="submit">Cadastrar</Button>
 
-          <Link to="/">Esqueci minha senha</Link>
-        </Form>
+            <Link to="/forgot">Esqueci minha senha</Link>
+          </Form>
 
-        <a href="create">
-          <FiArrowLeft />
-          Voltar para login
-        </a>
+          <Link to="/">
+            <FiArrowLeft />
+            Voltar para login
+          </Link>
+        </AnimationContainer>
       </Content>
     </Container>
   );

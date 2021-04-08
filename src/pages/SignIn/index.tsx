@@ -12,7 +12,7 @@ import { useAuth } from '../../hooks/auth';
 import { useToast } from '../../hooks/toast';
 import getValidationErrors from '../../utils/getValidationErrors';
 
-import { Container, Content, Background } from './styles';
+import { Container, Content, AnimationContainer, Background } from './styles';
 
 interface SignInFormData {
   email: string;
@@ -50,6 +50,8 @@ const SignIn: React.FC = () => {
           const errors = getValidationErrors(err);
 
           formRef.current?.setErrors(errors);
+
+          return;
         }
 
         addToast({
@@ -65,31 +67,33 @@ const SignIn: React.FC = () => {
   return (
     <Container>
       <Content>
-        <div>
-          <h1>PsyHeart</h1>
-          <FiHeart size={40} />
-        </div>
+        <AnimationContainer>
+          <div>
+            <h1>PsyHeart</h1>
+            <FiHeart size={40} />
+          </div>
 
-        <Form ref={formRef} onSubmit={handleSubmit}>
-          <h2>Faça seu logon</h2>
+          <Form ref={formRef} onSubmit={handleSubmit}>
+            <h2>Faça seu logon</h2>
 
-          <Input icon={FiMail} name="email" placeholder="E-mail" />
-          <Input
-            icon={FiLock}
-            name="password"
-            type="password"
-            placeholder="Senha"
-          />
+            <Input icon={FiMail} name="email" placeholder="E-mail" />
+            <Input
+              icon={FiLock}
+              name="password"
+              type="password"
+              placeholder="Senha"
+            />
 
-          <Button type="submit">Entrar</Button>
+            <Button type="submit">Entrar</Button>
 
-          <a href="forgot">Esqueci minha senha</a>
-        </Form>
+            <a href="forgot">Esqueci minha senha</a>
+          </Form>
 
-        <Link to="/signup">
-          <FiLogIn />
-          Criar conta
-        </Link>
+          <Link to="/signup">
+            <FiLogIn />
+            Criar conta
+          </Link>
+        </AnimationContainer>
       </Content>
 
       <Background />
