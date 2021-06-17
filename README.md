@@ -27,7 +27,7 @@
 </p>
 
 
-<h1>💙 StudiHub</h1>
+<h1>�🧠💞 PsyHeart /h1>
 <p>StudiHub is a bridge between university students.
 Have you ever had difficulties in the subject of college?
 Or, did you pass that subject easily?
