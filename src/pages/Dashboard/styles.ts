@@ -46,6 +46,15 @@ export const Profile = styled.div`
     span {
       color: #f4ede8;
     }
+
+    a {
+      text-decoration: none;
+      color: #fb1528;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
   }
 `;
 
