@@ -44,14 +44,14 @@ describe('SignIn Page', () => {
     const passwordField = getByPlaceholderText('Senha');
     const buttonElement = getByText('Entrar');
 
-    fireEvent.change(emailField, { target: { value: 'johndoe@example.com' }});
-    fireEvent.change(passwordField, { target: { value: '123456' }});
+    fireEvent.change(emailField, { target: { value: 'johndoe@example.com' } });
+    fireEvent.change(passwordField, { target: { value: '123456' } });
 
     fireEvent.click(buttonElement);
 
     await waitFor(() => {
       expect(mockedHistoryPush).toHaveBeenCalledWith('/dashboard');
-    })
+    });
   });
 
   it('should not be able to sign in with invalid credentials', async () => {
@@ -61,20 +61,20 @@ describe('SignIn Page', () => {
     const passwordField = getByPlaceholderText('Senha');
     const buttonElement = getByText('Entrar');
 
-    fireEvent.change(emailField, { target: { value: 'not-valid-email' }});
-    fireEvent.change(passwordField, { target: { value: '123456' }});
+    fireEvent.change(emailField, { target: { value: 'not-valid-email' } });
+    fireEvent.change(passwordField, { target: { value: '123456' } });
 
     fireEvent.click(buttonElement);
 
     await waitFor(() => {
       expect(mockedHistoryPush).not.toHaveBeenCalled();
-    })
+    });
   });
 
   it('should display an error if login fails', async () => {
     mockedSignIn.mockImplementation(() => {
       throw new Error();
-    })
+    });
 
     const { getByPlaceholderText, getByText } = render(<SignIn />);
 
@@ -82,15 +82,17 @@ describe('SignIn Page', () => {
     const passwordField = getByPlaceholderText('Senha');
     const buttonElement = getByText('Entrar');
 
-    fireEvent.change(emailField, { target: { value: 'johndoe@example.com' }});
-    fireEvent.change(passwordField, { target: { value: '123456' }});
+    fireEvent.change(emailField, { target: { value: 'johndoe@example.com' } });
+    fireEvent.change(passwordField, { target: { value: '123456' } });
 
     fireEvent.click(buttonElement);
 
     await waitFor(() => {
-      expect(mockedAddToast).toHaveBeenCalledWith(expect.objectContaining({
-        type: 'error',
-      }));
-    })
+      expect(mockedAddToast).toHaveBeenCalledWith(
+        expect.objectContaining({
+          type: 'error',
+        }),
+      );
+    });
   });
 });
