@@ -75,19 +75,25 @@
 
 
 <h2>🖥️ Demonstration</h2>
-<p>
-  <strong>To access and test the StudiHub website, click on the link: https://studihub.vercel.app</strong>
-</p>
-
-<h3>Home</h3>
+<h3>PsyHeart SignUp</h3>
   <p align="center">
-    <img src="./assets/Home.gif" alt="StudiHub Home" />
+    <img src="./assets/psyheart-signup.gif" alt="PsyHeart SignUp" />
+  </p></br>
+  
+<h3>PsyHeart Dashboard</h3>
+  <p align="center">
+    <img src="./assets/psyheart-signin.gif" alt="PsyHeart Dashboard" />
+  </p></br>
+  
+<h3>PsyHeart Profile</h3>
+  <p align="center">
+    <img src="./assets/psyheart-profile.gif" alt="PsyHeart Profile" />
   </p></br>
   
 
 
 <h2>📆 Upcoming features</h2>
-<p>Soon, PsyHeart will have the functionality of online assistance, with video calling</p></br>
+<p>Soon, PsyHeart will have the functionality of online assistance, with video calling.</p></br>
 
 
 
