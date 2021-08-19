@@ -19,17 +19,14 @@
   <a href="./LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue" alt="PsyHeart Web is released under the MIT license" />
   </a>
-  <a href="https://GitHub.com/Silvio-Ronaldo/PsyHeart-web/graphs/commit-activity">
+  <a href="https://GitHub.com/Silvio-Ronaldo/psyheart-web/graphs/commit-activity">
     <img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen" alt="PsyHeart Web is currently maintained by Silvio Ronaldo" />
   </a>
-  <a href="https://studihub.vercel.app">
-    <img src="https://img.shields.io/badge/website-up-brightgreen" alt="PsyHeart Web website is active" />
+  <a href="https://GitHub.com/Silvio-Ronaldo/psyheart-web/network/">
+    <img src="https://img.shields.io/github/forks/Silvio-Ronaldo/psyheart-web?style=social" alt="This is the number of forks in this repository" />
   </a>
-  <a href="https://GitHub.com/Silvio-Ronaldo/PsyHeart-web/network/">
-    <img src="https://img.shields.io/github/forks/Silvio-Ronaldo/PsyHeart-web?style=social" alt="This is the number of forks in this repository" />
-  </a>
-  <a href="https://GitHub.com/Silvio-Ronaldo/PsyHeart-web/stargazers/">
-    <img src="https://img.shields.io/github/stars/Silvio-Ronaldo/PsyHeart-web?style=social" alt="This is the number of stars in this repository" />
+  <a href="https://GitHub.com/Silvio-Ronaldo/psyheart-web/stargazers/">
+    <img src="https://img.shields.io/github/stars/Silvio-Ronaldo/psyheart-web?style=social" alt="This is the number of stars in this repository" />
   </a>
   <a href="https://github.com/Naereen/badges">
     <img src="https://img.shields.io/badge/badge-awesome-brightgreen" alt="Badges are awesome" />
@@ -42,14 +39,14 @@
   📋 Table of contents
 </h2>
 <ul>
-  <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-web#-status">Status</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-web#-how-it-works">How it works</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-web#-its-paid">It's paid?</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-web#%EF%B8%8F-demonstration">Demonstration</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-web#-upcoming-features">Upcoming features</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-web#%EF%B8%8F-technologies">Technologies</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-web#-author">Author</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-web#%EF%B8%8F-license">License</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/psyheart-web#-status">Status</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/psyheart-web#-how-it-works">How it works</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/psyheart-web#-its-paid">It's paid?</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/psyheart-web#%EF%B8%8F-demonstration">Demonstration</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/psyheart-web#-upcoming-features">Upcoming features</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/psyheart-web#%EF%B8%8F-technologies">Technologies</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/psyheart-web#-author">Author</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/psyheart-web#%EF%B8%8F-license">License</a></li>
 </ul></br>
 
 
