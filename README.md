@@ -11,7 +11,7 @@
 
   <p align="center">
     Access the repository for the mobile version of PsyHeart at: https://github.com/Silvio-Ronaldo/psyheart-mobile</br>
-    Access the repository of the API version of PsyHeart at: https://github.com/Silvio-Ronaldo/PsyHeart-back
+    Access the repository of the API version of PsyHeart at: https://github.com/Silvio-Ronaldo/psyheart-api
   </p></br>
 </p>
 
