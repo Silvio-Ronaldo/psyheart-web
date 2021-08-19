@@ -42,13 +42,14 @@
   📋 Table of contents
 </h2>
 <ul>
-  <li><a href="https://github.com/Silvio-Ronaldo/StudiHub-Web#-status">Status</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/StudiHub-Web#-how-it-works">How it works</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/StudiHub-Web#-its-paid">It's paid?</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/StudiHub-Web#%EF%B8%8F-demonstration">Demonstration</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/StudiHub-Web#%EF%B8%8F-technologies">Technologies</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/StudiHub-Web#-author">Author</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/StudiHub-Web#%EF%B8%8F-license">License</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-web#-status">Status</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-web#-how-it-works">How it works</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-web#-its-paid">It's paid?</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-web#%EF%B8%8F-demonstration">Demonstration</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-web#-upcoming-features">Upcoming features</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-web#%EF%B8%8F-technologies">Technologies</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-web#-author">Author</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-web#%EF%B8%8F-license">License</a></li>
 </ul></br>
 
 
